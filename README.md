@@ -13,4 +13,4 @@
 
 # **PyCharm configuration**
 
-https://github.com/kfinkels/fastapi-example/tree/master/fastapi-example/images/fastapi.png
+https://gitlab.com/kfinkels/fastapi-example/-/blob/master/images/fastapi.png
