@@ -1,3 +1,18 @@
+# **Install postgres**
+
+`brew install postgresql`
+
+`brew services start postgresql`
+
+`rm -rf /usr/local/var/postgres`
+
+`initdb --locale=C -E UTF8 /usr/local/var/postgres`
+
+`psql postgres`
+
+`CREATE DATABASE pet_store;`
+
+
 # **FastAPI**
 
 `https://fastapi.tiangolo.com/tutorial/`
