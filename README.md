@@ -12,6 +12,21 @@
 
 `CREATE DATABASE pet_store;`
 
+`CREATE USER admin WITH PASSWORD 'admin';`
+
+`GRANT ALL PRIVILEGES ON DATABASE "pet_store" to admin;`
+
+change listen_addresses = 'localhost'  -> listen_addresses = '*' in:
+`/usr/local/var/postgres/postgres.conf`
+
+`brew services restart postgresql`
+
+# **OpenApi \ ReDoc**
+
+http://127.0.0.1:8000/docs
+
+http://127.0.0.1:8000/redoc
+
 
 # **FastAPI**
 
